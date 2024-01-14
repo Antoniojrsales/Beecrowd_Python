@@ -1,0 +1,5 @@
+vendedor = input('Digite o nome do vendedor: ')
+salario = float(input('Digite o salario: '))
+vendas = float(input('Digite as vendas: '))
+totalvendas = salario + (vendas/100*15)
+print(f'O venderdor {vendedor} tera o total de ganhos sera R${totalvendas:.2f}')

@@ -1,0 +1,10 @@
+linha = input('Digite o codigo do item (espaco) a quant. (espaco) e o valor do item: ') .split()
+codigo1 = int (linha [0])
+quant1 = int (linha [1])
+valor1 = float (linha [2])
+linha2 = input('Digite o codigo do item (espaco) a quant. (espaco) e o valor do item: ') .split()
+codigo2 = int (linha2 [0])
+quant2 = int (linha2 [1])
+valor2 = float (linha2 [2])
+total = quant1 * valor1 + quant2 * valor2
+print(f'VALOR A PAGAR: R$ {total:.2f}')
